@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #randomImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  #changeImageButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  #changeImageButton:hover {
+    background-color: #2980b9;
+  }
